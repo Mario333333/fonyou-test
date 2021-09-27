@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+select:focus,
+button,
+input {
+  outline: none;
+  border: 0px;
+}
+
+input {
+  color: #1d1d1d;
+  padding: 0px 5px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
