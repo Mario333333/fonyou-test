@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fonyou-test/static/css/main.5483c437.chunk.css",
+    "main.css": "/fonyou-test/static/css/main.aeadd13b.chunk.css",
     "main.js": "/fonyou-test/static/js/main.64613334.chunk.js",
     "main.js.map": "/fonyou-test/static/js/main.64613334.chunk.js.map",
     "runtime-main.js": "/fonyou-test/static/js/runtime-main.610e891a.js",
@@ -10,14 +10,14 @@
     "static/js/3.41f9cdf4.chunk.js": "/fonyou-test/static/js/3.41f9cdf4.chunk.js",
     "static/js/3.41f9cdf4.chunk.js.map": "/fonyou-test/static/js/3.41f9cdf4.chunk.js.map",
     "index.html": "/fonyou-test/index.html",
-    "static/css/main.5483c437.chunk.css.map": "/fonyou-test/static/css/main.5483c437.chunk.css.map",
+    "static/css/main.aeadd13b.chunk.css.map": "/fonyou-test/static/css/main.aeadd13b.chunk.css.map",
     "static/js/2.70fe92e9.chunk.js.LICENSE.txt": "/fonyou-test/static/js/2.70fe92e9.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/fonyou-test/static/media/Roboto-Regular.a8d6ac03.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.610e891a.js",
     "static/js/2.70fe92e9.chunk.js",
-    "static/css/main.5483c437.chunk.css",
+    "static/css/main.aeadd13b.chunk.css",
     "static/js/main.64613334.chunk.js"
   ]
 }
