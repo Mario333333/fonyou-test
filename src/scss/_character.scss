@@ -26,3 +26,15 @@
     }
   }
 }
+
+@media (max-width: 850px) {
+  .character {
+    flex-basis: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .character {
+    flex-basis: 90%;
+  }
+}
