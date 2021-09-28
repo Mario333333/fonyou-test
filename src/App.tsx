@@ -1,5 +1,5 @@
 import { Dispatch, useEffect, useState } from "react";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+
 import { connect } from "react-redux";
 import Home from "./views/Home";
 import languages from "./utils/i18n/lang";
@@ -7,7 +7,7 @@ import AppContext from "./app_context";
 import MainLayout from "./containers/MainLayout";
 import { Language } from "./utils/ts/languages";
 import useAxios from "./hooks/useAxios";
-import { getURLByRouteName } from "./utils/routes";
+
 import { setCharacters } from "./redux/actions/characters";
 import { Character, Characters, State } from "./utils/ts/componentTypes";
 
@@ -32,13 +32,9 @@ const App = ({ characters, setCharacters }: any) => {
         data: characters,
       }}
     >
-      <BrowserRouter>
-        <MainLayout>
-          <Switch>
-            <Route exact path={getURLByRouteName("home")} component={Home} />
-          </Switch>
-        </MainLayout>
-      </BrowserRouter>
+      <MainLayout>
+        <Home />
+      </MainLayout>
     </AppContext.Provider>
   );
 };
